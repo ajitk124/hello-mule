@@ -56,8 +56,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>AjitKumar07</username>
-						<password>Akum@r123</password>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
 						<applicationName>dev-mule-hello-api</applicationName>
 						<environment>Sandbox</environment>
 						<region>ap-southeast-1</region>
